@@ -22,7 +22,7 @@ const forecast = (lat, long, callback) => {
             ". It is currently " +
             curData.temperature +
             " degrees out there but it feels like " +
-            curData.feelslike+". There is "+precip+"% chance of rain."
+            curData.feelslike+". There is "+curData.precip+"% chance of rain."
         );
       }
     }
