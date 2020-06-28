@@ -74,10 +74,6 @@ app.get("/weather", (req, res) => {
   });
 
   console.log(req.query.address);
-  // res.send({
-  //   forecast: "it is 11 degree c",
-  //   location: "munich",
-  // });
 });
 
 app.get("/help/*", (req, res) => {
